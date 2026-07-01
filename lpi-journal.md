@@ -1,4 +1,3 @@
-
 ---
 
 ## 2026-06-01 · Monday · W0S0 · [Setting up LPI Journal and Folder Structure]
@@ -40,8 +39,8 @@
 ### Commands I ran
 
 | Command | What it does |
-|---------|--------------|
-|  |  |
+| ------- | ------------ |
+|         |              |
 
 ### Struggled with / questions
 
@@ -51,3 +50,29 @@
 
 - [ ]
 
+---
+
+## 2026-07-01 · Wednesday · W1S1 · [Linux evolution, distros & FOSS]
+
+**Objectives touched: 1.1**
+**Time: 1.5 hours**
+
+### What I learned
+
+- About the evolution of Linux
+- Different distros and how it's maintained
+- FOSS and it's benifits and advantages over counterpart
+
+### Commands I ran
+
+| Command | What it does |
+| ------- | ------------ |
+|         |              |
+
+### Struggled with / questions
+
+-
+
+### Checkpoint status
+
+- [ ]
