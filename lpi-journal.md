@@ -1,5 +1,4 @@
----
-
+----
 ## 2026-06-01 · Monday · W0S0 · [Setting up LPI Journal and Folder Structure]
 
 **Objectives touched: Nothing yet**
@@ -23,7 +22,6 @@
 ### Checkpoint status
 
 - [ ]
-
 
 ---
 
