@@ -1,6 +1,6 @@
 #!/bin/bash
 
-JOURNAL=~/lpi-study/lpi-journal.md
+JOURNAL=~/Documents/Dev/lpi-study/lpi-journal.md
 DATE=$(date '+%Y-%m-%d')
 DAY_OF_WEEK=$(date '+%A')
 

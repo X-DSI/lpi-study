@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-cd ~/lpi-study
+cd ~/Documents/Dev/lpi-study
 git add -A
 git commit -m "$(date '+%Y-%m-%d') - $1"
 git push

@@ -1,5 +1,5 @@
 #!/bin/bash
 
-JOURNAL=~/lpi-study/lpi-journal.md
+JOURNAL=~/Documents/Dev/lpi-study/lpi-journal.md
 
 nvim + "$JOURNAL"
