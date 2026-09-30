@@ -2,7 +2,7 @@
 
 | Obj | Topic                 | Wt  | Studied | Labbed | Confidence (1-5) |
 | --- | --------------------- | --- | ------- | ------ | ---------------- |
-| 1.1 | Evolution & distros   | 2   | [ ]     | [ ]    |                  |
+| 1.1 | Evolution & distros   | 2   | [ ]     | [-]    | 4                |
 | 1.2 | OSS applications      | 2   | [ ]     | [ ]    |                  |
 | 1.3 | Licensing             | 1   | [ ]     | [ ]    |                  |
 | 1.4 | ICT skills            | 2   | [ ]     | [ ]    |                  |
