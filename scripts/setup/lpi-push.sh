@@ -5,7 +5,8 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-cd ~/Documents/Dev/lpi-study
+REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+cd "$REPO" || exit 1
 git add -A
 git commit -m "$(date '+%Y-%m-%d') - $1"
 git push

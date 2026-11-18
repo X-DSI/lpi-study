@@ -1,14 +1,15 @@
 #!/bin/bash
 
-JOURNAL=~/Documents/Dev/lpi-study/lpi-journal.md
+REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+JOURNAL="$REPO/lpi-journal.md"
 DATE=$(date '+%Y-%m-%d')
 DAY_OF_WEEK=$(date '+%A')
 
-cat >> "$JOURNAL" << 'EOF'
+cat >> "$JOURNAL" << EOF
 
 ---
 
-## DATE_PLACEHOLDER · DAY_PLACEHOLDER · W_S_ · [session title here]
+## $DATE · $DAY_OF_WEEK · W_S_ · [session title here]
 
 **Objectives touched:**
 **Time:**
@@ -32,8 +33,5 @@ cat >> "$JOURNAL" << 'EOF'
 - [ ]
 
 EOF
-
-sed -i "s/DATE_PLACEHOLDER/$DATE/" "$JOURNAL"
-sed -i "s/DAY_PLACEHOLDER/$DAY_OF_WEEK/" "$JOURNAL"
 
 nvim + "$JOURNAL"

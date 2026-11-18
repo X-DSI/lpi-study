@@ -1,5 +1,6 @@
 #!/bin/bash
 
-JOURNAL=~/Documents/Dev/lpi-study/lpi-journal.md
+REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+JOURNAL="$REPO/lpi-journal.md"
 
 nvim + "$JOURNAL"
